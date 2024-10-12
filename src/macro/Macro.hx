@@ -67,7 +67,7 @@ class Macro
 	]; 
 
 	macro
-	public static function initiateMacro() 
+	/*public static function initiateMacro() 
 	{
 		var settings:SuperlativeSettings = defaultSettings;
 		#if (sys)
@@ -235,7 +235,7 @@ class Macro
 		if (settings.includeAll)
 			Compiler.define('SUPERLATIVE_INCLUDE_ALL');
 		return macro {}
-	}
+	}*/
 
 	public static function log(?log:String = "")
 	{
